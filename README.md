@@ -2,6 +2,7 @@
 
 1. race condition detector: go test -race
 2. benchmarker: go test -bench=.
+3. other memoryy bugs: go vet
 
 : tests need to be in a file labeled "xx_test.go"
 - test function must start with Test
